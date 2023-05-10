@@ -1,0 +1,19 @@
+h1 {
+    padding: 0;
+    margin: 0;
+    background-image: url(../../images/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    margin: 145px auto 66px auto;
+    background-color: #5B2386;
+}
+
+.title {
+    display: block;
+    width: 564px;
+    height: 112px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+}

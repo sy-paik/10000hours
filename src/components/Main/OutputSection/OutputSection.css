@@ -1,0 +1,31 @@
+.output-form {
+    color: #fff;
+    line-height: 100px;
+    margin-bottom: 80px;
+}
+
+.output-form::after {
+    content: " :)";
+}
+
+.output {
+    font-size: 70px;
+    padding: 0 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 20px; 
+}
+
+.button-training {
+    padding: 10px 40px;
+    word-break: keep-all;
+}
+
+.button-share {
+    padding: 10px 40px;
+    background-color: #fff;
+}

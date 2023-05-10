@@ -1,0 +1,57 @@
+.input-form {
+    color: #fff;
+    line-height: 80px;
+}
+
+  button {
+    border: none;
+    cursor: pointer;
+    font-family: 'GmarketSansBold';
+    position: relative;
+    height: 66px;
+    font-weight: bold;
+    border-radius: 56px;
+    font-size: 24px;
+    color: #5B2386;
+    background: #FCEE21;
+  }
+
+  .button-submit {
+    width: 565px;
+    margin-bottom: 80px;
+    font-family: 'GmarketSansBold';
+  }
+  
+  .button-submit::after {
+    position: absolute;
+    top: 14px;
+    right: -71.45px;
+    content: '';
+    background: no-repeat url(../../../images/click.png);
+    background-size: contain;
+    width: 64.85px;
+    height: 73.7px;
+    cursor: default;
+  }
+
+  input {
+    font-family: 'GmarketSansMedium';
+    margin: 0 15px;
+    width: 200px;
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 22px;
+    border: none;
+  }
+
+  input::placeholder {
+    font-family: 'GmarketSansMedium';
+    font-size: 20px;
+    color: #BABCBE;
+    text-align: left;
+  }
+
+  .training-hour {
+    margin-bottom: 115px;
+  }

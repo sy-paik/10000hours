@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-bottom: 81px;
+  }
+
+  .description {
+  
+  }
+
+  .description {
+   width: 493px;
+    margin: 0 auto 102px auto;
+    background: url(../../../images/quotes.png) no-repeat 0 25%;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+strong {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
