@@ -20,6 +20,12 @@ export default function OutputSection({ field, hours }) {
         return requiredDays;
       };
 
+    const handleShare = () => {
+      const url = window.location.href;
+      navigator.clipboard.writeText(url);
+      alert('✨ 주소가 복사되었습니다 오예~!✨');
+    }
+
   return (
   <>
   {field && hours && (
@@ -32,7 +38,7 @@ export default function OutputSection({ field, hours }) {
           <button className="button-training" type="button" onClick={handleShowModal}>
         훈련하러 가기 GO!GO!
       </button>
-      <button className="button-share">공유하기</button>
+      <button className="button-share" onClick={handleShare}>공유하기</button>
       </div> 
       {showModal && <ModalSection handleCloseModal={handleCloseModal} />}
        </section>

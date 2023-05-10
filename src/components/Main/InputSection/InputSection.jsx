@@ -10,7 +10,13 @@ export default function InputSection({ onSubmit }) {
   };
 
   const handleHourChange = (event) => {
-    setHourValue(event.target.value);
+    const value = event.target.value;
+    if (value === '' || (Number(value) >= 1 && Number(value) <= 24)) {
+      setHourValue(value);
+    } else {
+      alert('1에서 24까지의 숫자만 입력해주세요.')
+    }
+    
   };
 
   const handleSubmit = (event) => {
