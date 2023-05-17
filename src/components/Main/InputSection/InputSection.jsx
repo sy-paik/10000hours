@@ -23,7 +23,6 @@ export default function InputSection({ onSubmit }) {
     event.preventDefault();
     if (!fieldValue || !hourValue) {
         alert('입력값을 확인해주세요.');
-        return;
       }
     onSubmit(fieldValue, hourValue);
   };
