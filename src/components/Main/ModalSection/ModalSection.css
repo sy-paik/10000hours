@@ -1,4 +1,4 @@
-  .modal {
+.modal {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -58,5 +58,4 @@ img {
   color: #747474;
   font-size: 13px;
 }
-
 

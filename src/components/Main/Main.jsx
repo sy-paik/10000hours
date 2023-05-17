@@ -5,13 +5,14 @@ import OutputSection from './OutputSection/OutputSection'
 import ModalSection from './ModalSection/ModalSection'
 
 export default function Main() {
+
 const [fieldValue, setFieldValue] = useState('');
 const [hourValue, setHourValue] = useState('');
 const [showModal, setShowModal] = useState(false);
 
-  const handleFormSubmit = (fieldValue, hourValue) => {
-    setFieldValue(fieldValue);
-    setHourValue(hourValue);
+  const handleFormSubmit = (inputField, inputHour) => {
+    setFieldValue(inputField);
+    setHourValue(inputHour);
   };
 
   const handleShowModal = () => {
